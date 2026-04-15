@@ -1,58 +1,61 @@
-# Rust for Backend Engineers
+# Rust 与后端工程师
 
-## Existing Strengths That Transfer
+## 你已有的可迁移优势
 
-If you already work in Python and Java, you already have a lot that transfers:
+如果你已经在使用 Python 和 Java 工作，其实你已经具备很多可迁移能力：
 
-- API design thinking
-- layering and modularity
-- error handling discipline
-- data modeling instincts
-- testing mindset
-- backend trade-off awareness
+- API 设计思维
+- 分层与模块化能力
+- 错误处理纪律
+- 数据建模直觉
+- 测试意识
+- 后端权衡判断力
 
-## What Changes in Rust
+## Rust 带来的变化
 
-### Compared with Python
+### 和 Python 相比
 
-Rust asks you to be more explicit:
+Rust 会要求你更加显式：
 
-- types are front-and-center
-- ownership matters
-- mutation is controlled more tightly
-- runtime mistakes get shifted into compile-time constraints
+- 类型更居中
+- 所有权是核心问题
+- 可变性控制更严格
+- 很多运行期错误会被前移到编译期约束
 
-### Compared with Java
+### 和 Java 相比
 
-Rust often feels lighter, but also less protected by heavy frameworks.
-You compose more deliberately and rely more on the type system and crates than on framework magic.
+Rust 往往显得更轻，但同时也没有那么多重型框架保护。
+你会更主动地做组合，更依赖类型系统和 crate，而不是框架魔法。
 
-## Good Early Backend Stack
+## 适合早期上手的后端栈
 
-For backend-oriented Rust learning, a practical early stack is:
+对面向后端的 Rust 学习来说，一个很实用的早期组合是：
 
-- `tokio` for async runtime
-- `axum` for HTTP services
-- `serde` for serialization
-- `reqwest` for HTTP clients
-- `tracing` for logging / observability
-- `sqlx` or `sea-orm` later, once basics are solid
+- `tokio`：异步运行时
+- `axum`：HTTP 服务
+- `serde`：序列化
+- `reqwest`：HTTP 客户端
+- `tracing`：日志与可观测性
+- `sqlx` 或 `sea-orm`：等基础更稳后再引入
 
-## Suggested Milestone Sequence
+## 建议的里程碑顺序
 
-1. build CLI comfort
-2. learn idiomatic error handling
-3. learn async basics
-4. build a small web API
-5. add persistence and tests
-6. refactor toward cleaner abstractions
+1. 先建立 CLI 习惯
+2. 学会地道的错误处理
+3. 理解异步基础
+4. 做一个小型 Web API
+5. 加入持久化和测试
+6. 继续往更干净的抽象重构
 
-## Long-Term Direction
+## 长期方向
 
-The most useful long-term goal is not just "know Rust syntax".
-It is to be able to choose Rust deliberately when the problem benefits from:
+真正有用的长期目标，不只是“会 Rust 语法”。
 
-- performance
-- safety
-- concurrency discipline
-- long-term maintainability of systems code
+而是：当问题确实适合 Rust 时，你能有意识地选择它。
+
+例如当你需要这些特性时：
+
+- 性能
+- 安全性
+- 并发纪律
+- 系统代码的长期可维护性

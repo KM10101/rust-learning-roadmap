@@ -1,78 +1,78 @@
-# Project Ladder
+# 项目阶梯
 
-## Project 1: String and file utility CLI
+## 项目 1：字符串与文件处理 CLI
 
-Build a small CLI that:
+做一个小型 CLI，具备这些能力：
 
-- reads a file
-- counts lines / words / characters
-- optionally filters lines by keyword
+- 读取文件
+- 统计行数 / 单词数 / 字符数
+- 可选地按关键字过滤行
 
-Why it matters:
+它的价值在于：
 
-- file IO
-- argument parsing
-- string handling
-- ownership basics in practice
+- 练文件 IO
+- 练参数解析
+- 练字符串处理
+- 在真实代码里感受所有权基础
 
-## Project 2: JSON API fetcher CLI
+## 项目 2：JSON API 获取 CLI
 
-Build a CLI that:
+做一个 CLI，具备这些能力：
 
-- calls a public HTTP API
-- parses JSON
-- formats output cleanly
-- handles errors well
+- 调用公开 HTTP API
+- 解析 JSON
+- 格式化输出结果
+- 做好错误处理
 
-Why it matters:
+它的价值在于：
 
-- reqwest
-- serde
-- Result-based flow
-- practical error handling
+- 学会使用 reqwest
+- 学会使用 serde
+- 理解基于 Result 的流程
+- 建立实用的错误处理习惯
 
-## Project 3: Markdown knowledge helper
+## 项目 3：Markdown 知识整理工具
 
-Build a tool that:
+做一个工具，具备这些能力：
 
-- scans markdown files
-- extracts headings / links / keywords
-- produces a summary report
+- 扫描 markdown 文件
+- 提取标题 / 链接 / 关键词
+- 输出一份汇总报告
 
-Why it matters:
+它的价值在于：
 
-- structs and enums
-- file traversal
-- modular design
-- testing parsing logic
+- 练 struct 与 enum
+- 练文件遍历
+- 练模块化设计
+- 练解析逻辑测试
 
-## Project 4: Tiny task API service
+## 项目 4：小型任务 API 服务
 
-Build a small backend service that:
+做一个小型后端服务，具备这些能力：
 
-- exposes CRUD endpoints
-- validates input
-- stores data in memory first
-- later adds persistent storage
+- 提供 CRUD 接口
+- 做输入校验
+- 初期先把数据存内存
+- 后续再扩展持久化存储
 
-Why it matters:
+它的价值在于：
 
-- async backend concepts
-- routing
-- shared state
-- API error design
+- 建立 async 后端直觉
+- 理解路由
+- 理解共享状态
+- 练 API 错误设计
 
-## Project 5: Agent-supporting utility
+## 项目 5：面向 Agent 的辅助工具
 
-Build a utility relevant to current interests, such as:
+做一个和当前兴趣方向相关的工具，例如：
 
-- prompt history organizer
-- repo diff summarizer
-- markdown knowledge indexer
-- log/event parser
+- prompt 历史整理器
+- 仓库 diff 总结器
+- markdown 知识索引器
+- 日志 / 事件解析器
 
-Why it matters:
+它的价值在于：
 
-- motivation stays high
-- connects Rust to real work
-- helps build long-term fluency
+- 更容易保持学习动力
+- 能把 Rust 和真实工作连接起来
+- 有助于形成长期熟练度

@@ -1,10 +1,10 @@
 ---
 layout: home
 
-title: Rust Learning Roadmap
+title: Rust 学习路线图
 hero:
-  name: Rust Learning Roadmap
-  text: 用 VitePress 浏览的 Rust 学习路线站点
+  name: Rust 学习路线图
+  text: 用 VitePress 浏览的 Rust 学习站点
   tagline: 面向后端工程师，从重新上手到能构建真实工具与服务。
   actions:
     - theme: brand

@@ -1,99 +1,99 @@
-# Roadmap
+# 学习路线图
 
-## Stage 1: Re-entry and foundations
+## 阶段 1：重新上手与基础恢复
 
-Goal: get comfortable reading, running, and slightly modifying Rust code.
+目标：重新建立对 Rust 代码的阅读、运行和轻微修改能力。
 
-Focus on:
+重点包括：
 
-- cargo basics
-- variables, functions, structs, enums
-- pattern matching
-- `Option` and `Result`
-- ownership and borrowing basics
-- modules and crates
+- cargo 基础
+- 变量、函数、结构体、枚举
+- 模式匹配
+- `Option` 与 `Result`
+- 所有权与借用基础
+- 模块与 crate
 
-Target outcome:
+阶段结果应当是：
 
-- run small Rust programs
-- understand compiler feedback at a basic level
-- solve simple exercises without panic
+- 能运行小型 Rust 程序
+- 能在基础层面理解编译器反馈
+- 能完成简单练习而不慌乱
 
-## Stage 2: Core model understanding
+## 阶段 2：真正理解核心模型
 
-Goal: stop treating ownership as magic.
+目标：不再把所有权看成“玄学”。
 
-Focus on:
+重点包括：
 
-- moves vs borrows
-- mutable and immutable references
-- slices and strings
-- collections
-- error propagation with `?`
-- traits and generics
-- lifetimes at a practical level
+- move 与 borrow 的区别
+- 可变引用与不可变引用
+- slice 与字符串
+- 集合类型
+- 使用 `?` 进行错误传播
+- trait 与泛型
+- 在实用层面理解生命周期
 
-Target outcome:
+阶段结果应当是：
 
-- explain why a borrow checker error happens
-- choose between owned values and references more intentionally
-- write medium-sized exercises with less trial and error
+- 能解释借用检查错误为什么出现
+- 能更有意识地在拥有值和引用之间做选择
+- 能写出中等规模的练习代码，并减少盲目试错
 
-## Stage 3: Real small projects
+## 阶段 3：做真实的小项目
 
-Goal: build confidence through complete programs.
+目标：通过完整程序建立信心。
 
-Focus on:
+重点包括：
 
-- CLI tools
-- file IO
-- parsing
-- HTTP clients
-- serialization with serde
-- project organization
-- tests
+- CLI 工具
+- 文件 IO
+- 解析逻辑
+- HTTP 客户端
+- 使用 serde 做序列化
+- 项目组织方式
+- 测试
 
-Target outcome:
+阶段结果应当是：
 
-- complete 3 to 5 small Rust projects
-- ship working command-line tools
-- understand common crate usage patterns
+- 完成 3 到 5 个小型 Rust 项目
+- 能交付可用的命令行工具
+- 理解常见 crate 的使用模式
 
-## Stage 4: Backend-oriented Rust
+## 阶段 4：面向后端的 Rust
 
-Goal: connect Rust to existing backend engineering instincts.
+目标：把 Rust 和已有的后端工程直觉连接起来。
 
-Focus on:
+重点包括：
 
 - async / await
-- Tokio runtime
-- Axum or Actix Web
-- configuration and environment management
-- error design
-- logging and observability
-- database integration
+- Tokio 运行时
+- Axum 或 Actix Web
+- 配置与环境管理
+- 错误设计
+- 日志与可观测性
+- 数据库集成
 
-Target outcome:
+阶段结果应当是：
 
-- build a small backend service
-- expose HTTP APIs
-- structure project layers cleanly
-- reason about async execution and shared state
+- 能做一个小型后端服务
+- 能暴露 HTTP API
+- 能把项目分层组织清楚
+- 能理解异步执行和共享状态
 
-## Stage 5: Production-grade improvement
+## 阶段 5：向生产级工程能力提升
 
-Goal: move from learning projects to dependable engineering.
+目标：从“学习项目”迈向“可靠工程实践”。
 
-Focus on:
+重点包括：
 
-- performance profiling
-- trait-based architecture
-- concurrency patterns
-- testing strategy
-- refactoring toward idiomatic code
-- reading mature open source Rust projects
+- 性能分析
+- 基于 trait 的架构抽象
+- 并发模式
+- 测试策略
+- 向更地道 Rust 代码的重构
+- 阅读成熟 Rust 开源项目
 
-Target outcome:
+阶段结果应当是：
 
-- feel capable of using Rust for serious tooling or service work
-- know how to keep improving beyond beginner status
+- 有能力把 Rust 用在严肃的工具或服务工作中
+- 知道如何持续提升，而不是停留在入门阶段

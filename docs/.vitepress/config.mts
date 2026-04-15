@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'Rust Learning Roadmap',
-  description: 'A practical Rust learning roadmap for backend engineers.',
+  title: 'Rust 学习路线图',
+  description: '面向后端工程师的 Rust 学习路线、核心概念与项目实践建议。',
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
@@ -19,7 +19,7 @@ export default defineConfig({
           { text: '核心概念', link: '/03-core-concepts' },
           { text: '项目阶梯', link: '/04-project-ladder' },
           { text: '学习节奏', link: '/05-study-rhythm' },
-          { text: 'Rust for Backend Engineers', link: '/06-rust-for-backend-engineers' },
+          { text: 'Rust 与后端工程师', link: '/06-rust-for-backend-engineers' },
         ],
       },
     ],

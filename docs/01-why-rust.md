@@ -1,30 +1,32 @@
-# Why Rust
+# 为什么学 Rust
 
-Rust is worth learning because it combines:
+Rust 值得学习，是因为它把这些特性放在了一起：
 
-- performance close to C/C++
-- modern tooling
-- strong type safety
-- memory safety without garbage collection
-- growing relevance in systems, backend services, infra, and tooling
+- 接近 C/C++ 的性能
+- 现代化工具链
+- 很强的类型安全
+- 无需垃圾回收也能获得内存安全
+- 在系统、后端服务、基础设施和工具领域越来越重要
 
-For a backend engineer, Rust is especially attractive when you care about:
+对于后端工程师来说，如果你关注这些问题，Rust 会特别有吸引力：
 
-- reliability
-- concurrency correctness
-- performance
-- resource efficiency
-- building robust CLI and service software
+- 可靠性
+- 并发正确性
+- 性能
+- 资源效率
+- 构建健壮的 CLI 和服务端软件
 
-## Why It Feels Hard
+## 为什么它会让人觉得难
 
-Rust is not hard because the syntax is exotic.
-It feels hard because the language forces you to understand ownership, borrowing, and lifetimes well enough to write safe code deliberately.
+Rust 难，并不是因为语法有多怪。
 
-That learning cost is real.
-But the upside is that once the model clicks, a lot of bugs become harder to write.
+它真正难的地方在于：语言会逼着你真正理解所有权、借用和生命周期，只有理解到位，才能有意识地写出安全代码。
 
-## Best Mindset
+这个学习成本确实存在。
+但一旦这个模型真正建立起来，很多 bug 会变得更难写出来。
 
-Do not treat Rust as just another syntax layer.
-Treat it as a language that teaches a different way to model data, mutation, errors, and resource ownership.
+## 更合适的心态
+
+不要把 Rust 只当成另一门语法不同的语言。
+
+更适合的理解方式是：它在教你用另一种方式去建模数据、可变性、错误处理和资源所有权。

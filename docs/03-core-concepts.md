@@ -1,54 +1,55 @@
-# Core Concepts
+# 核心概念
 
-## Ownership
+## 所有权
 
-Every value has an owner.
-When ownership moves, the previous binding can no longer use the value.
+每个值都有一个所有者。
+当所有权发生移动后，之前的绑定就不能再继续使用这个值。
 
-The key lesson:
+这里最关键的几点是：
 
-- understand who owns data
-- understand how long it should live
-- avoid cloning blindly just to silence errors
+- 先搞清楚数据归谁拥有
+- 再搞清楚它应该活多久
+- 不要为了压掉报错而盲目 clone
 
-## Borrowing
+## 借用
 
-Borrowing lets you use data without taking ownership.
+借用允许你在不取得所有权的前提下使用数据。
 
-Important rules:
+重要规则包括：
 
-- many immutable references are allowed
-- only one mutable reference is allowed at a time
-- mutable and immutable references cannot overlap unsafely
+- 可以同时存在多个不可变引用
+- 同一时刻只能有一个可变引用
+- 可变引用和不可变引用不能以不安全的方式重叠
 
-## Lifetimes
+## 生命周期
 
-At first, lifetimes feel abstract.
-In practice, they describe how long references remain valid.
+生命周期一开始会显得很抽象。
+但在实践里，它描述的是：引用在多长时间内保持有效。
 
-You do not need to master advanced lifetime syntax on day one.
-You do need to understand that references cannot outlive the data they point to.
+你不需要在第一天就掌握高级生命周期语法。
+但你必须理解：引用不能活得比它指向的数据更久。
 
-## Enums and Pattern Matching
+## 枚举与模式匹配
 
-Rust makes enums far more powerful than in many other languages.
-They are a core modeling tool, not just named constants.
+Rust 里的枚举能力远强于很多语言里的 enum。
+它不是单纯的命名常量，而是非常核心的建模工具。
 
-## Option and Result
+## Option 与 Result
 
-These are central to idiomatic Rust.
+这两个类型是 Rust 风格中的中心内容。
 
-- `Option<T>` models absence
-- `Result<T, E>` models fallible operations
+- `Option<T>` 表示“可能不存在”
+- `Result<T, E>` 表示“可能失败的操作”
 
-Instead of hiding failure, Rust encourages you to model it explicitly.
+Rust 不鼓励隐藏失败，而是鼓励你显式建模失败。
 
-## Traits
+## Trait
 
-Traits define shared behavior.
-They are foundational for abstraction, extension, and reusable APIs.
+Trait 用来定义共享行为。
+它们是抽象、扩展和可复用 API 设计的基础。
 
-## Compiler Feedback
+## 编译器反馈
 
-A major skill in Rust is learning to read compiler errors as guidance rather than punishment.
-The compiler often tells you more than it first appears to.
+学习 Rust 的一个核心能力，是把编译器错误当成指导，而不是惩罚。
+
+很多时候，编译器给出的信息比你第一眼看到的还要多。

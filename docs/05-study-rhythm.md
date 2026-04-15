@@ -1,44 +1,44 @@
-# Study Rhythm
+# 学习节奏
 
-## Recommended Cadence
+## 推荐频率
 
-A sustainable cadence is better than occasional intensity.
+可持续的学习节奏，比偶尔爆发式投入更重要。
 
-Suggested baseline:
+建议基线：
 
-- 3 to 5 sessions per week
-- 30 to 60 minutes per session
-- at least 2 sessions should involve hands-on coding
+- 每周 3 到 5 次学习
+- 每次 30 到 60 分钟
+- 至少 2 次必须是亲手写代码
 
-## Suggested Weekly Structure
+## 推荐的每周结构
 
 ### Session A
-- read or review one concept
-- write a few tiny examples
+- 阅读或复习一个概念
+- 写几个极小的例子
 
 ### Session B
-- continue a small project
-- focus on one recurring pain point
+- 继续推进一个小项目
+- 聚焦一个反复卡住的痛点
 
 ### Session C
-- revisit compiler errors from earlier work
-- rewrite a solution more cleanly
+- 回看之前遇到的编译器报错
+- 用更干净的方式重写一个解法
 
-### Session D or E
-- read idiomatic code from a real project
-- compare it to your own code
+### Session D 或 E
+- 阅读真实项目中的地道代码
+- 和自己的代码做对比
 
-## Avoid These Traps
+## 要避免的陷阱
 
-- reading too much without coding
-- coding too much without reflection
-- copying solutions without understanding ownership decisions
-- jumping into advanced async code too early
+- 读得太多，写得太少
+- 写得太多，却缺少复盘
+- 抄了解法，却没理解所有权决策
+- 过早跳进高级 async 代码
 
-## A Better Goal Than "Learn Rust"
+## 比“学会 Rust”更好的目标
 
-Use this instead:
+建议把目标写成这样：
 
-"Become able to build one small useful tool and one small backend service in Rust with confidence."
+“能够有信心地用 Rust 做出一个小而有用的工具，以及一个小型后端服务。”
 
-That goal is concrete and measurable.
+这个目标更具体，也更容易衡量。
